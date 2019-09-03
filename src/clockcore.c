@@ -42,7 +42,7 @@ clock_get_is_24h_format()
   gboolean rv;
   char buf[16];
 
-  if (time_get_time_format(buf, 16) < 0)
+  if (time_get_time_format(buf, sizeof(buf)) < 0)
     return clock_gconf_is_24h_format();
 
   rv = !g_strcmp0(buf, "%R") || g_strcmp0(buf, "%r");
