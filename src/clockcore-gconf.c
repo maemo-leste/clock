@@ -110,7 +110,7 @@ clock_gconf_set_auto_sync_time(gboolean enable)
 gint
 clock_gconf_get_home_location()
 {
-  return _get_id("CLOCK_GCONF_HOME_LOCATION");
+  return _get_id(CLOCK_GCONF_HOME_LOCATION);
 }
 
 gboolean
