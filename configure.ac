@@ -23,7 +23,7 @@ AC_PATH_PROG(GCONFTOOL, gconftool-2)
 PKG_PROG_PKG_CONFIG
 
 #+++++++++++++++
-# Misc programs 
+# Misc programs
 #+++++++++++++++
 
 AC_SUBST(CFLAGS)
@@ -41,11 +41,6 @@ AC_SUBST(CLOCK_CFLAGS)
 #+++++++++++++++++++
 # Directories setup
 #+++++++++++++++++++
-
-dnl Localization
-GETTEXT_PACKAGE=osso-connectivity-ui
-AC_SUBST(GETTEXT_PACKAGE)
-AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "${GETTEXT_PACKAGE}", [gettext package])
 
 AC_OUTPUT([
 Makefile
