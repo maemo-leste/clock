@@ -6,6 +6,6 @@ includedir=@includedir@
 Name: libclockcore
 Description: Back-end library for Clock Application.
 Version: @PACKAGE_VERSION@
-Requires: dbus-1 hildon-1 libosso icd2 gconf-2.0
-Libs: -L${libdir} -lclockcore0
+Requires: libcityinfo0-0 alarm hildon-1 gconf-2.0 glib-2.0
+Libs: -L${libdir} -lclockcore0 -lglib-2.0 -lcityinfo0
 Cflags: -I${includedir}/clock
