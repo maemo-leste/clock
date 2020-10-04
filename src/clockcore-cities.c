@@ -34,7 +34,7 @@ clock_find_nearest_location(gdouble x, gdouble y, gint old_id)
     return cityinfo_find_closest(x, y);
 
 
-  for (_cities = cities; _cities; _cities++)
+  for (_cities = cities; *_cities; _cities++)
   {
     Cityinfo *c = *_cities;
     double new_sigma = (y - c->y) * (y - c->y) + (x - c->x) * (x - c->x);
