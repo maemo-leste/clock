@@ -29,7 +29,7 @@ Replaces: osso-clock
 Description: Back-end library for Clock Application
  Library providing basic functionalities for Clock Application.
 
-Package: libclockcore-dev
+Package: libclockcore0-dev
 Section: devel
 Priority: extra
 Architecture: any
