@@ -1,10 +1,10 @@
-lib_LTLIBRARIES = libclockcore0-0.la
+lib_LTLIBRARIES = libclockcore0.la
 
-libclockcore0_0_la_CFLAGS = $(CLOCK_CFLAGS) -I$(srcdir)/../include
+libclockcore0_la_CFLAGS = $(CLOCK_CFLAGS) -I$(srcdir)/../include
 
-libclockcore0_0_la_LDFLAGS = -Wl,--as-needed $(CLOCK_LIBS) -Wl,--no-undefined
+libclockcore0_la_LDFLAGS = -Wl,--as-needed $(CLOCK_LIBS) -Wl,--no-undefined
 
-libclockcore0_0_la_SOURCES = \
+libclockcore0_la_SOURCES = \
 			     clockcore.c \
 			     clockcore-citytime.c \
 			     clockcore-cities.c \

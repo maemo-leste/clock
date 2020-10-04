@@ -1,0 +1,40 @@
+Source: clock
+Priority: optional
+Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
+Build-Depends: debhelper (>= 10),
+    libcityinfo-dev,
+    libdbus-1-dev,
+    libdbus-glib-dev,
+    libosso-dev,
+    libalarm-dev
+Standards-Version: 4.3.0
+Section: misc
+
+Package: libclockcore0-0
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ libcityinfo0-0,
+ libdbus-1-3,
+ libdbus-glib-1-2,
+ libgconf-2-4,
+ libglib2.0-0,
+ libosso1,
+ gconf2,
+ libalarm2,
+ osso-clock-l10n-mr0
+Conflicts: osso-clock
+Replaces: osso-clock
+Description: Back-end library for Clock Application
+ Library providing basic functionalities for Clock Application.
+
+Package: libclockcore-dev
+Section: devel
+Priority: extra
+Architecture: any
+Depends: pkg-config,
+    libalarm-dev,
+    libclockcore0-0
+Description: Back-end library for Clock Application - headers
+ Library providing basic functionalities for Clock Application - headers.
