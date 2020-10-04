@@ -5,6 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <errno.h>
+#include <locale.h>
 
 #include "clockcore.h"
 #include "clockcore-gconf.h"
