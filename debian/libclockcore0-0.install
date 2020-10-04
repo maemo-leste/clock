@@ -1,7 +1,1 @@
 usr/lib/*/libclockcore0.so*
-usr/share/gconf/defaults/10_libclockcore0-0
-usr/share/gconf/schemas/clock.schemas
-etc/osso-backup/applications/worldclock.conf
-etc/osso-backup/pre-backup.d/clock.prebackup.sh
-etc/osso-backup/restore.d/always/clock.restore.sh
-etc/osso-cud-scripts/clockcore-clean.sh

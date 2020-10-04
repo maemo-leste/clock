@@ -4,7 +4,7 @@ Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
 Build-Depends: debhelper (>= 10),
     libcityinfo-dev,
     libdbus-1-dev,
-    libdbus-glib-dev,
+    libdbus-glib-1-dev,
     libosso-dev,
     libalarm-dev
 Standards-Version: 4.3.0
