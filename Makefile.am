@@ -2,6 +2,7 @@ SUBDIRS = src
 
 clockinclude_HEADERS = include/clockcore.h \
 		       include/clockcore-citytime.h \
+		       include/clockcore-cities.h \
 		       include/clockcore-gconf.h
 
 clockincludedir = $(includedir)/clock
