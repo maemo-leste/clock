@@ -6,7 +6,8 @@ Build-Depends: debhelper (>= 10),
     libdbus-1-dev,
     libdbus-glib-1-dev,
     libosso-dev,
-    libalarm-dev
+    libalarm-dev,
+    libgconf2-dev
 Standards-Version: 4.3.0
 Section: misc
 
