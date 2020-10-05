@@ -1,2 +1,3 @@
 usr/lib/*/pkgconfig/libclockcore0-0.pc
+usr/lib/*/libclockcore0.so
 usr/include/clock/*
