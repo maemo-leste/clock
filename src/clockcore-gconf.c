@@ -1,7 +1,6 @@
 #include <gconf/gconf-client.h>
 
 #include "clockcore-gconf.h"
-#include "clockcore-gconf-private.h"
 
 static GConfClient *
 _gc_init()
