@@ -1,4 +1,4 @@
-SUBDIRS = src
+SUBDIRS = src data
 
 clockinclude_HEADERS = include/clockcore.h \
 		       include/clockcore-citytime.h \

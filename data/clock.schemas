@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+	<schemalist>
+	        <schema>
+		                <key>/schemas/apps/clock/home-location</key>
+		                <applyto>/apps/clock/home-location</applyto>
+		                <owner>clock</owner>
+		                <type>int</type>
+		                <default>327</default>
+		                <locale name="C">
+		                        <short>Home city</short>
+		                </locale>
+	        </schema>
+
+	        <schema>
+		                <key>/schemas/apps/clock/default-location</key>
+		                <applyto>/apps/clock/default-location</applyto>
+		                <owner>clock</owner>
+		                <type>int</type>
+		                <default>327</default>
+		                <locale name="C">
+		                        <short>Default city</short>
+		                </locale>
+	        </schema>
+
+	        <schema>
+		                <key>/schemas/apps/clock/time-format</key>
+		                <applyto>/apps/clock/time-format</applyto>
+		                <owner>clock</owner>
+		                <type>bool</type>
+		                <default>true</default>
+		                <locale name="C">
+		                        <short>Use 24h format</short>
+		                </locale>
+	        </schema>
+
+	        <schema>
+		                <key>/schemas/apps/clock/auto-sync</key>
+		                <applyto>/apps/clock/auto-sync</applyto>
+		                <owner>clock</owner>
+		                <type>bool</type>
+		                <default>true</default>
+		                <locale name="C">
+		                        <short>Autosynchronize time with operator time</short>
+		                </locale>
+	        </schema>
+
+	        <schema>
+		                <key>/schemas/apps/clock/alarm-tone</key>
+		                <applyto>/apps/clock/alarm-tone</applyto>
+		                <owner>clock</owner>
+		                <type>string</type>
+		                <default>/usr/share/sounds/ui-clock_alarm_default.aac</default>
+		                <locale name="C">
+		                        <short>Currently selected tone</short>
+		                </locale>
+	        </schema>
+
+	        <schema>
+		                <key>/schemas/apps/clock/alarm-tone1</key>
+		                <applyto>/apps/clock/alarm-tone1</applyto>
+		                <owner>clock</owner>
+		                <type>string</type>
+		                <default>/usr/share/sounds/ui-clock_alarm_default.aac</default>
+		                <locale name="C">
+		                        <short>Tone 1</short>
+		                </locale>
+	        </schema>
+
+	        <schema>
+		                <key>/schemas/apps/clock/alarm-tone2</key>
+		                <applyto>/apps/clock/alarm-tone2</applyto>
+		                <owner>clock</owner>
+		                <type>string</type>
+		                <default>/usr/share/sounds/ui-clock_alarm_2.aac</default>
+		                <locale name="C">
+		                        <short>Tone 2</short>
+		                </locale>
+	        </schema>
+
+	        <schema>
+		                <key>/schemas/apps/clock/alarm-tone3</key>
+		                <applyto>/apps/clock/alarm-tone3</applyto>
+		                <owner>clock</owner>
+		                <type>string</type>
+		                <default>/usr/share/sounds/ui-clock_alarm_3.aac</default>
+		                <locale name="C">
+		                        <short>Tone 3</short>
+		                </locale>
+	        </schema>
+
+	        <schema>
+		                <key>/schemas/apps/clock/alarm-custom</key>
+		                <applyto>/apps/clock/alarm-custom</applyto>
+		                <owner>clock</owner>
+		                <type>string</type>
+		                <default>/</default>
+		                <locale name="C">
+		                        <short>custom</short>
+		                </locale>
+	        </schema>
+
+	        <schema>
+		                <key>/schemas/apps/clock/alarm-time</key>
+		                <applyto>/apps/clock/alarm-time</applyto>
+		                <owner>clock</owner>
+		                <type>int</type>
+		                <default>-1</default>
+		                <locale name="C">
+		                        <short>time</short>
+		                </locale>
+	        </schema>
+
+	</schemalist>
+</gconfschemafile>

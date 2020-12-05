@@ -45,6 +45,7 @@ AC_SUBST(CLOCK_CFLAGS)
 AC_OUTPUT([
 Makefile
 src/Makefile
+data/Makefile
 libclockcore0-0.pc
 ])
 
